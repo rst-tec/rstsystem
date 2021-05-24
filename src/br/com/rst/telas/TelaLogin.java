@@ -74,6 +74,8 @@ public class TelaLogin extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("RST-Tecnologia | Tela Login");
+        setMaximumSize(new java.awt.Dimension(0, 0));
+        setResizable(false);
 
         jLabel1.setText("Usuario:");
 
@@ -130,7 +132,7 @@ public class TelaLogin extends javax.swing.JFrame {
                 .addContainerGap(45, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(380, 224));
+        pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
